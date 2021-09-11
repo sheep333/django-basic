@@ -1,0 +1,22 @@
+{
+  "name": "django-basic",
+  "dockerComposeFile": [
+    "../.docker/docker-compose.yml",
+  ],
+  "service": "django",
+  "workspaceFolder": "/var/www/html",
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash"
+      }
+    }
+  },
+  "remoteUser": "admin",
+  "remoteEnv": {
+    "TZ": "Asia/Tokyo",
+    "LESSCHARSET": "UTF-8"
+  },
+  "extensions": [
+  ]
+}
